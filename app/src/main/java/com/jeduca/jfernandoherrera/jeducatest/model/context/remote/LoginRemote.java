@@ -2,7 +2,9 @@ package com.jeduca.jfernandoherrera.jeducatest.model.context.remote;
 
 import android.util.Log;
 
+import com.jeduca.jfernandoherrera.jeducatest.model.context.local.UserLocal;
 import com.jeduca.jfernandoherrera.jeducatest.model.domain.LoginAttributes;
+import com.jeduca.jfernandoherrera.jeducatest.model.domain.User;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.HttpClient;

@@ -28,4 +28,28 @@ public class User {
 
     }
 
+    public String getContrasena() {
+
+        return contrasena;
+
+    }
+
+    public String getUsuario() {
+
+        return usuario;
+
+    }
+
+    public void setContrasena(String contrasena) {
+
+        this.contrasena = contrasena;
+
+    }
+
+    public void setUsuario(String usuario) {
+
+        this.usuario = usuario;
+
+    }
+
 }

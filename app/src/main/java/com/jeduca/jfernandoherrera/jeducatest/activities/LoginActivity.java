@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
@@ -135,6 +136,7 @@ public class LoginActivity extends AppCompatActivity {
 
             if (success) {
 
+                Log.i("login","done");
 
             } else {
 
