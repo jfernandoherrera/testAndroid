@@ -1,10 +1,6 @@
 package com.jeduca.jfernandoherrera.jeducatest.model.context.remote;
 
-import android.util.Log;
-
-import com.jeduca.jfernandoherrera.jeducatest.model.context.local.UserLocal;
 import com.jeduca.jfernandoherrera.jeducatest.model.domain.LoginAttributes;
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.User;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.HttpClient;
@@ -23,7 +19,6 @@ import org.xml.sax.SAXException;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

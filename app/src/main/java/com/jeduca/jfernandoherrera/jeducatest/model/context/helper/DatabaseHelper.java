@@ -4,8 +4,8 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import com.jeduca.jfernandoherrera.jeducatest.model.domain.DatabaseAttributes;
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.TestAttributes;
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.UserAttributes;
+import com.jeduca.jfernandoherrera.jeducatest.model.domain.test.TestAttributes;
+import com.jeduca.jfernandoherrera.jeducatest.model.domain.user.UserAttributes;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
@@ -17,7 +17,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
             " (id integer primary key autoincrement, " + TestAttributes.percentage + " integer, " +
 
-            TestAttributes.accomplished + " integer, " + TestAttributes.notAccomplished + " integer, " + TestAttributes.dontApply + " integer );";
+            TestAttributes.accomplished + " integer, " + TestAttributes.notAccomplished + " integer, " +
+
+            TestAttributes.dontApply + " integer, " + TestAttributes.type + " text );";
 
     private final String dbUserUpdgrade = "DROP TABLE IF EXISTS " + DatabaseAttributes.userTableName;
 

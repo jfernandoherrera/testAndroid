@@ -1,4 +1,4 @@
-package com.jeduca.jfernandoherrera.jeducatest.model.domain;
+package com.jeduca.jfernandoherrera.jeducatest.model.domain.user;
 
 public class UserAttributes {
 

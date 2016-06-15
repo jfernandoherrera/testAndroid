@@ -1,16 +1,10 @@
 package com.jeduca.jfernandoherrera.jeducatest.model.context.local;
 
-
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.User;
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.UserAttributes;
-
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collections;
+import com.jeduca.jfernandoherrera.jeducatest.model.domain.user.User;
+import com.jeduca.jfernandoherrera.jeducatest.model.domain.user.UserAttributes;
 
 public class UserLocal {
 

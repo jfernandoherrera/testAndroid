@@ -9,7 +9,7 @@ import com.jeduca.jfernandoherrera.jeducatest.model.context.local.LoginLocal;
 import com.jeduca.jfernandoherrera.jeducatest.model.context.local.UserLocal;
 import com.jeduca.jfernandoherrera.jeducatest.model.context.remote.LoginRemote;
 import com.jeduca.jfernandoherrera.jeducatest.model.domain.DatabaseAttributes;
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.User;
+import com.jeduca.jfernandoherrera.jeducatest.model.domain.user.User;
 
 public class LoginContext {
 

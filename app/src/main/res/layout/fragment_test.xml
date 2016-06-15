@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/toolbar">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/progressBar"/>
+    </android.support.v7.widget.Toolbar>
+    <com.jeduca.jfernandoherrera.jeducatest.utils.view.InfoTextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/info"></com.jeduca.jfernandoherrera.jeducatest.utils.view.InfoTextView>
+    <com.jeduca.jfernandoherrera.jeducatest.utils.view.SelectTestOptionsView
+        android:layout_width="match_parent"
+        android:id="@+id/select"
+        android:layout_height="wrap_content"></com.jeduca.jfernandoherrera.jeducatest.utils.view.SelectTestOptionsView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.main.MainActivity">
+    <item
+        android:id="@+id/action_ready"
+        android:icon="@mipmap/ic_ready"
+        android:title="@string/ready"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_close"
+        android:icon="@mipmap/ic_close"
+        android:title="@string/close"
+        app:showAsAction="always" />
+</menu>

@@ -1,12 +1,7 @@
 package com.jeduca.jfernandoherrera.jeducatest.model.context.local;
 
 
-import android.content.Context;
-
-import com.jeduca.jfernandoherrera.jeducatest.activities.LoginActivity;
-import com.jeduca.jfernandoherrera.jeducatest.model.context.helper.DatabaseHelper;
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.DatabaseAttributes;
-import com.jeduca.jfernandoherrera.jeducatest.model.domain.User;
+import com.jeduca.jfernandoherrera.jeducatest.model.domain.user.User;
 
 public class LoginLocal {
 

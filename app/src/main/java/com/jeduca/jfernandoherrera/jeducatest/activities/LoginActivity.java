@@ -136,7 +136,7 @@ public class LoginActivity extends AppCompatActivity {
 
             if (success) {
 
-                Log.i("login","done");
+                MainActivity.goToMain(LoginActivity.this, usuario, contrasena);
 
             } else {
 
